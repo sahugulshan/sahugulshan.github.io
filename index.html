@@ -4,39 +4,6 @@
   <title>uzumaki naruto</title>
   <link rel="icon" href="./uzumaki.png">
   <style>
-    body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 14px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbar a:hover {
-  background: #f1f1f1;
-  color: black;
-}
-
-.main {
-  padding: 16px;
-  margin-bottom: 30px;
-}
     h1 {
       text-align: center;
     }
@@ -44,14 +11,19 @@
     p {
       text-align: center;
     }
-
-    .ul {
+    
+    ul {
+      list-style-type: none;
+      margin: -7;
+      padding: 0;
+      overflow: hidden;
+      background-color: #01ABBA;
+    }
+    /* .ul {
       list-style-type: none;
       margin: -7;
       padding: 0px;
-      overflow: hidden;
-      background-color: #333333;
-    }
+    } */
 
     li {
       float: left;
@@ -69,13 +41,6 @@
       background: #111111;
     }
 
-    ul {
-      list-style-type: none;
-      margin: -7;
-      padding: 0;
-      overflow: hidden;
-      background-color: #01ABBA;
-    }
   </style>
 </head>
 
@@ -92,9 +57,9 @@
   </ul>
   <div>
     <img alt="uzumaki" data-height="39" data-width="134" src='./paroject_2.0-removebg-preview.png'
-      style="margin: 10;" />
-
-    <h1> HI'I am gulshan</h1>
+    style="margin: 10;" />
+    
+      <h1> HI'I am gulshan</h1>
     <div>
       <img alt="gulshan" src="gulshan0.3.png" 
       style="display: block;
@@ -109,12 +74,14 @@
       </div>
     </div>
   </div>
-  <div class="navbar">
-    <a href="#home" class="active">Home</a>
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-  </div>
-  
+  <ul style='align-items: center;display: flex;justify-content: space-between;'>
+    <div>copyright uzumaki naruto|</div>
+    <div>
+      <li><a href="/">home</a></li>
+      <li><a href="./contact.html">contact</a></li>
+      <li><a href="./about.html">about</a></li>
+    </div>
+  </ul>
 </body>
 
 </html>
