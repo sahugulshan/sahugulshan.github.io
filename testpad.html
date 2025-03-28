@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moving Image</title>
+    <style>
+        body {
+            background-color: rgb(253, 244, 244);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        img {
+            width: 150px;
+            position: absolute;
+            animation: moveImage 10s linear infinite;
+        }
+
+        @keyframes moveImage {
+            0% {
+                left: 0;
+            }
+            100% {
+                left: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img srNarutoc=" uzumaki.png" alt="Moving Image">
+</body>
+</html>
